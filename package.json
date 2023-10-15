@@ -1,0 +1,25 @@
+{
+    "name": "Unam Tutoring Website",
+    "version": "1.0.0",
+    "description": "A short description of your project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "bcrypt": "^5.0.1",
+        "connect-flash": "^0.1.1",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "moment": "^2.29.1",
+        "mongoose": "^5.13.2",
+        "multer": "^1.4.4-lts.1",
+        "passport": "^0.6.0",
+        "passport-local": "^1.0.0"
+    }
+}

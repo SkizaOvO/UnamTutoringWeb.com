@@ -1,0 +1,108 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #007BFF;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .menu-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .menu-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .menu-button {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Student Dashboard</h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h2>Welcome, <span id="student-username">Sacheus</span></h2>
+            <p>Good luck in finding Tutors!</p>
+            <button class="menu-button">Menu</button>
+        </div>
+    </div>
+    <script>
+        // Replace this with your code to retrieve the student's username
+        var studentUsername = "Sacheus Kapiye"; // Replace with the actual student's username
+
+        // Set the student's username in the HTML
+        document.getElementById("student-username").textContent = studentUsername;
+    </script>
+</body>
+</html>

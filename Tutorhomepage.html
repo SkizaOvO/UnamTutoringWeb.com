@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #007BFF;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tutor Dashboard</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="edit-profile.html">Edit Profile</a></li>
+            <li><a href="upload-image.html">Upload Image</a></li>
+            <li><a href="manage-classes.html">Manage Classes</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <h2>Welcome, Ms Mukhaya</h2>
+            <h3>Upcoming Sessions</h3>
+            <ul>
+                <li>Math Tutorial - 10/25/2023, 3:00 PM</li>
+                <li>Science Class - 10/26/2023, 2:30 PM</li>
+            </ul>
+            <h3>Completed Sessions</h3>
+            <ul>
+                <li>History Lecture - 10/20/2023</li>
+                <li>English Composition - 10/22/2023</li>
+            </ul>
+            <h3>My Profile</h3>
+            <ul>
+                <li><a href="edit-profile.html">Edit Profile</a></li>
+                <li><a href="upload-image.html">Upload Image</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
